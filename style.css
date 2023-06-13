@@ -122,8 +122,35 @@ label{
 li{
     text-align: center;
 }
-.menu-content
+.menu-content{
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    height: auto;
+}
 .Menu {
+    color: rgb(58, 58, 192);
+    width: 350px;
+    border: 4px solid green;
+    border-radius: 20px;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    /* flex-direction: column; */
+    background-color: rgb(93, 209, 209);
+    /* height: auto;     */
+}
+
+.Menu p{
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid red;
+    padding-bottom: 30px;
+}
+
+.extra-space {
+    height: 200px;
+}
+/* .menu6{
     color: rgb(58, 58, 192);
     width: 350px;
     border: 4px solid green;
@@ -133,11 +160,5 @@ li{
     justify-content: center;
     flex-direction: column;
     background-color: rgb(93, 209, 209);
-}
-
-.Menu p{
-    font-weight: bold;
-    font-size: 30px;
-    border-bottom: 2px solid red;
-    padding-bottom: 30px;
-}
+    height: 500px;
+} */
